@@ -78,7 +78,7 @@ while True:
         elif (not title.done):
             title.draw()
         else: 
-            state = 2
+            state = 1
             intro.starting_time = pygame.time.get_ticks()
 
     #LOAD MAIN ROOM STATE
